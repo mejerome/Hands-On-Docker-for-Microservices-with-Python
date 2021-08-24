@@ -24,7 +24,7 @@ jobs:
     - stage: tests
       name: "Unit Tests"
       script:
-      - cd ch4
+      - cd Chapter04
       - docker-compose build db
       - docker-compose build test-postgresql
       - docker-compose run test-postgresql
